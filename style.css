@@ -1,0 +1,54 @@
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px auto 300px 300px;
+    grid-template-rows: 100px 200px auto 200px;
+
+    
+    
+}
+
+
+#spongebob{
+    grid-row: 4;
+    grid-column: 3 / 4;
+    
+}
+
+#patrick{
+    grid-row: 4;
+    grid-column: 4 / 5;
+}
+
+#gary{
+    grid-row: 4;
+    grid-column: 6; 
+
+}
+
+#mrkrabs{
+    grid-row: 4;
+    grid-column: 1;
+    
+}
+
+#squidward{
+    grid-row: 4;
+}
+
+#jellyfish{
+    grid-row: 1 / 5;
+    grid-column: 2;
+}
